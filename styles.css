@@ -1,0 +1,90 @@
+.navbar  {
+  background-color: #f2dedf; 
+  font-family: "Pacifico", "Lobster", "Dancing Script", cursive;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  
+  color: #e0b79e;
+  font-size: 30px; 
+}
+
+.navbar-nav {
+  color: #42312b; 
+  font-size: 20px; 
+  
+}
+
+.nav-link:hover {
+  color: #d726647a; 
+}
+.main-content {
+  background: url('./assests/back.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh; /* pour occuper au moins toute la hauteur de l'écran */
+  padding: 50px 20px; /* un peu d'espace autour du contenu */
+}
+.hero {
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size:30px;
+    color: #E69DB8;
+    font-weight: bold;
+    font-family: "Pacifico", "Lobster", "Dancing Script", cursive;
+  }
+  .btn{
+    color: #e2b193;
+    background-color: #f2dedf;
+    font-weight: bold;
+    border: none;
+    border-bottom: 3px solid #911844; 
+  }
+  .btn:hover {
+    color: #71072c7a;
+    background-color: white; 
+    border: none;
+    border-bottom: 3px solid #911844; 
+  }
+  .me-3{
+    width:80px; 
+    height:80px; 
+    object-fit:cover; 
+    border-radius:8px;
+  }
+  .card{
+    border: none;
+    border: 3px solid #911844;
+    background-color: #eed0e0; 
+  }
+  .card-title, .fw-bold{
+    color: #911844;
+    font-weight: bold;
+  }
+  h2{
+    color: #fa0a62;
+    font-weight: bold;
+  }
+  .row{
+    background-color: #d8bbad;
+  }
+  .img-fluid{
+    height: 400px;
+    width: 400px;
+  }
+  footer {
+    background-color: #dbad98;
+    color: white;
+    padding: 1rem 0;
+    font-weight: bold;
+  }
